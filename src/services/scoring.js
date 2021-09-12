@@ -6,9 +6,9 @@ const Match = require('../models/user').match
 const Prediction = require('../models/user').prediction
 
 const T = new Twit({
-  consumer_key: 'S5Kfhe84lyy5anAwIfipS5rzR',
+  consumer_key: 'QBylbtuQn0WGoEgVAmp9LUoxB',
   consumer_secret: env.TWIT_CONSUMER_SECRET,
-  access_token: '770278396005867521-L1NBvOb3mNYlXp87iQ6yd3aphk1Nz2T',
+  access_token: '1437049270918582272-a7mpgMkoLCLf2eeMCj3sRHtHori0va',
   access_token_secret: env.TWIT_ACCESS_TOKEN_SECRET,
   timeout_ms: 60 * 1000 // optional HTTP request timeout to apply to all requests.
 })

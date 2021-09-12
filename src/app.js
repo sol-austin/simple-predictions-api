@@ -21,7 +21,7 @@ Sentry.init({
   environment: environment
 })
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5001
 
 // Use imported app
 express.use(Sentry.Handlers.tracingHandler())

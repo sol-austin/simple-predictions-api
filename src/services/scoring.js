@@ -288,6 +288,8 @@ async function updateDBScoresFootballData (json) {
       Match.findOne({ home_team: homeTeam, away_team: awayTeam }, async function (err, result) {
         if (err) throw err
         if (!result) {
+          console.log(homeTeam)
+          console.log(awayTeam)
           console.log(match)
           reject(new Error('Match not found'))
         }

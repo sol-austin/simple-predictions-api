@@ -6,7 +6,7 @@ exports.games = async () => {
     console.log('Games called')
     const options = {
       host: 'footballapi.pulselive.com',
-      path: '/football/fixtures?comps=1&teams=1,2,131,43,4,6,7,34,9,26,10,11,12,23,18,20,21,36,25,38&compSeasons=418&page=0&pageSize=1000&sort=asc&statuses=C,U,L&altIds=true',
+      path: '/football/fixtures?comps=1&teams=1,2,130,131,43,4,6,7,9,26,10,11,12,23,14,20,21,33,25,38&compSeasons=418&page=0&pageSize=1000&sort=asc&statuses=C,U,L&altIds=true',
       method: 'GET',
       port: 443,
       headers: { Origin: 'https://www.premierleague.com' }
